@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="estilo-portafolio.css">
+    <link rel="stylesheet" type="text/css" href="java-portafolio.js">
+    <title>France/Portafolio</title>
+    </head>
+<body>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+            <nav class="topnav">
+                <h1>Laura Francela Urbina Chavarría / Portafolio</h1><br>
+                <br>
+                <br>
+                <br>
+                    <a class="active" href="#home">Inicio</a>
+                    <a href="#news">Sobre mí</a>
+                    <a href="#about">Portafolio</a>
+                    <a href="#contact"> Contacto</a>
+            </nav>
+            <br>
+           <h2 id="news">Sobre mí</h2>
+           <p><img src="Perfil.jpg" width="150px" height="200px" /></p>
+           <p>Hola, mi nombre es France, hoy quiero compartirte el trabajo realizado a lo largo de mi<br>
+            carrera. Soy una persona proactiva, amable, accesible y soy muy cariñosa.<br>
+            Me encanta hacer reir a las personas y ayudarlas si requieren de mi. <br>
+            Amo pintar y realizar dibujos dependiendo mi estado de ánimo.
+        </p>
+           <br>
+          </div>
+            <h2 id="about">Portafolio</h2>
+            <!-- Container for the image gallery -->
+<div class="container">
+
+    <!-- Full-width images with number text -->
+    <div class="mySlides">
+      <div class="numbertext">1 / 6</div>
+        <img src="uno.png" style="width:100%">
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext">2 / 6</div>
+        <img src="dos.png" style="width:100%">
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext">3 / 6</div>
+        <img src="tres.png" style="width:100%">
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext">4 / 6</div>
+        <img src="cuatro.png" style="width:100%">
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext">5 / 6</div>
+        <img src="cinco.png" style="width:100%">
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext">6 / 6</div>
+        <img src="seis.png" style="width:100%">
+    </div>
+  
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  
+    <!-- Image text -->
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+  
+    <!-- Thumbnail images -->
+    <div class="row">
+      <div class="column">
+        <img class="demo cursor" src="uno.png" style="width:75%" onclick="currentSlide(1)" alt="The Woods">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="dos.png" style="width:75%" onclick="currentSlide(2)" alt="Cinque Terre">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="tres.png" style="width:75%" onclick="currentSlide(3)" alt="Mountains and fjords">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="cuatro.png" style="width:75%" onclick="currentSlide(4)" alt="Northern Lights">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="cinco.png" style="width:75%" onclick="currentSlide(5)" alt="Nature and sunrise">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="seis.png" style="width:75%" onclick="currentSlide(6)" alt="Snowy Mountains">
+      </div>
+    </div>
+  </div>
+      <div class="contact-row-form">
+        <h2 id="contact">Contactamé</h2>
+        <form action="mailto:france@gmail.com" method="get" name="France/Portafolio" onsubmit="valida(this)">
+        <div class="form-group">
+            Nombre: <input type="text" name="txtnombre" id="">
+            <br>
+            <br/>
+            Correo electrónico: <input type="text" name="txtemail" id="">
+            <br>
+            <br/>
+            Escribenos tu comentario:
+            <br>
+            <textarea name="txtcomentario" id="" cols="30" rows="10"></textarea>
+            <br>
+            <br/>
+            <input type="submit" value="Enviar" name="enviar">
+        </div>
+    </form>
+      </div>
+</body>
+</html>
